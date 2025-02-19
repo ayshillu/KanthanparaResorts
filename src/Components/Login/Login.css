@@ -1,0 +1,84 @@
+:root {
+    --PrimaryColor: hsl(26, 93%, 50%);
+    --HoverColor: hsl(26, 90%, 42%);
+    --TextColor: hsl(240, 1%, 48%);
+    --whiteColor: hsl(0, 0%, 100%);
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--whiteColor);
+  }
+  
+  .login-form {
+    background: var(--whiteColor);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+  }
+  
+  .login-form h2 {
+    color: var(--TextColor);
+    margin-bottom: 1rem;
+  }
+  
+  .login-form .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .login-form label {
+    display: block;
+    text-align: left;
+    font-size: 0.9rem;
+    color: var(--TextColor);
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--TextColor);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: var(--TextColor);
+  }
+  
+  .login-form .btn {
+    background: var(--PrimaryColor);
+    color: var(--whiteColor);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .login-form .btn:hover {
+    background: var(--HoverColor);
+  }
+  
+  .login-form .text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--TextColor);
+  }
+  
+  .login-form .text a {
+    color: var(--PrimaryColor);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .login-form .text a:hover {
+    text-decoration: underline;
+  }
+  
